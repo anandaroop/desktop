@@ -1,15 +1,15 @@
-import {Command, flags} from "@oclif/command";
+import {Command, flags} from '@oclif/command'
 
 export default class Show extends Command {
-  static description = "Show the desktop icons";
+  static description = 'Show the desktop icons'
 
   static flags = {
-    help: flags.help({char: "h"})
-  };
+    help: flags.help({char: 'h'}),
+  }
 
-  static args = [];
+  static args = []
 
   async run() {
-    this.log("show!");
+    this.log('show!')
   }
 }
