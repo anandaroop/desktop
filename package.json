@@ -1,7 +1,7 @@
 {
   "name": "@anandaroop/desktop",
   "description": "Easily show/hide the icons on your desktop. Great for screenshots and screencaps.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
