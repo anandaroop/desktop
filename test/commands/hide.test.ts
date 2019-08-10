@@ -3,8 +3,9 @@ import * as shell from 'shelljs'
 import * as sinon from 'sinon'
 
 describe('hide', () => {
-  test
-    .stdout()
+  let testWithoutShellingOut = test.stub(shell, 'exec', sinon.stub()).stdout()
+
+  testWithoutShellingOut
     .command(['hide'])
     .it('outputs its shell commands', ctx => {
       expect(ctx.stdout).to.contain(
@@ -13,9 +14,7 @@ describe('hide', () => {
       expect(ctx.stdout).to.contain('killall Finder')
     })
 
-  test
-    .stub(shell, 'exec', sinon.spy())
-    .stdout()
+  testWithoutShellingOut
     .command(['hide'])
     .it('issues its shell commands', () => {
       // @ts-ignore methods added by sinon
