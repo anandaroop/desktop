@@ -24,6 +24,7 @@
     "globby": "^10",
     "mocha": "^5",
     "nyc": "^13",
+    "oclif": "^1.13.5",
     "prettier": "^1.18.2",
     "ts-node": "^8",
     "tslint": "^5",

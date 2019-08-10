@@ -30,6 +30,8 @@ USAGE
 <!-- commands -->
 * [`desktop hello [FILE]`](#desktop-hello-file)
 * [`desktop help [COMMAND]`](#desktop-help-command)
+* [`desktop hide [FILE]`](#desktop-hide-file)
+* [`desktop show [FILE]`](#desktop-show-file)
 
 ## `desktop hello [FILE]`
 
@@ -67,4 +69,36 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.0/src/commands/help.ts)_
+
+## `desktop hide [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ desktop hide [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/hide.ts](https://github.com/anandaroop/desktop/blob/v0.0.0/src/commands/hide.ts)_
+
+## `desktop show [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ desktop show [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/show.ts](https://github.com/anandaroop/desktop/blob/v0.0.0/src/commands/show.ts)_
 <!-- commandsstop -->
