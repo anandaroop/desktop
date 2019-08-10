@@ -1,4 +1,5 @@
 import {Command, flags} from '@oclif/command'
+import chalk from 'chalk'
 import * as shell from 'shelljs'
 
 export default class Show extends Command {
@@ -17,7 +18,7 @@ export default class Show extends Command {
     ]
 
     commands.forEach(cmd => {
-      this.log(cmd)
+      this.log(chalk.hex('#666666').bold(cmd))
       shell.exec(cmd)
     })
   }
