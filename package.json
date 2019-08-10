@@ -1,7 +1,7 @@
 {
   "name": "@anandaroop/desktop",
   "description": "Easily show/hide the icons on your desktop. Great for screenshots and screencaps.",
-  "version": "0.0.0",
+  "version": "0.0.11",
   "author": "Anandaroop Roy @anandaroop",
   "bin": {
     "desktop": "./bin/run"
